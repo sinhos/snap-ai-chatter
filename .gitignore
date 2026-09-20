@@ -1,0 +1,22 @@
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.DS_Store
+.chrome-profile/
+friends.json
+runtime.json
+*.log
+inspect_dump.*
+*.tmp
+
+# Local credentials and diagnostic exports
+*.pem
+*.key
+*.p12
+*.har
+storage-state*.json
